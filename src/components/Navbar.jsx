@@ -56,7 +56,7 @@ function Navbar() {
         <div
           className={`${
             isMenuOpen ? "translate-y-0" : "-translate-y-[350px]"
-          } lg:transform-none duration-700 transition-transform flex overflow-hidden lg:flex lg:flex-row lg:static lg:shadow-none lg:justify-between lg:w-full flex-col items-center gap-4 absolute right-0 left-0 top-16 bg-amber-400 text-center p-6 text-lg`}
+          }  z-40 lg:transform-none duration-700 transition-transform flex overflow-hidden lg:flex lg:flex-row lg:static lg:shadow-none lg:justify-between lg:w-full flex-col items-center gap-4 absolute right-0 left-0 top-16 bg-amber-400 text-center p-6 text-lg`}
         >
           <a
             href="/"
